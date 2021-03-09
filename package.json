@@ -1,0 +1,31 @@
+{
+  "name": "express-mysql-template",
+  "version": "1.0.0",
+  "description": "Express框架+MySQL 模板项目",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "mysql"
+  ],
+  "author": "sunhao",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "file-stream-rotator": "^0.5.7",
+    "jsonwebtoken": "^8.5.1",
+    "module-alias": "^2.2.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "util": "^0.12.3"
+  },
+  "_moduleAliases": {
+    "@": "src",
+    "@usercenter": "src/usercenter"
+  },
+  "devDependencies": {}
+}
